@@ -1,0 +1,50 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 40px;
+    display: flex;
+    justify-content: center;
+}
+
+.button {
+    height: 50px;
+    width: 75px;
+    background-color: rgb(242, 228, 255);
+    margin: 10px;
+    border-radius: 20px;
+    outline: 1px solid black;
+    text-align: center;
+    vertical-align: middle;
+    color: rgb(125, 83, 165);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button.op {
+    background-color: rgb(217, 187, 244);
+}
+
+.calculator {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 380px;
+    background-color: rgb(205, 157, 249);
+    outline: 1px solid black;
+    border-radius: 20px;
+    padding-bottom: 10px;
+    margin-top: 50px;
+}
+
+.display {
+    background-color: rgb(208, 221, 183);
+    width: 340px;
+    height: 100px;
+    margin: 20px;
+    outline: 1px solid black;
+    border-radius: 20px;
+    padding-right: 20px;
+    display: flex;
+    justify-content: end;
+    align-items: center;
+}
